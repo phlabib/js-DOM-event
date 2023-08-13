@@ -10,6 +10,7 @@ function makeRed() {
 
 // Option 3: add onclick function
     const makeGreenButton = document.getElementById("make-green");
+    console.log("🚀 ~ file: event.js:13 ~ const:", const)
 makeGreenButton.onclick = makeGreen;
 function makeGreen() {
   document.body.style.backgroundColor = "green";

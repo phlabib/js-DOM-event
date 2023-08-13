@@ -30,14 +30,21 @@
             const handerStatus = document.getElementById('handler-status');
             handerStatus.innerText = 'Text updated by add Event Listener Button';
         })
+        // console.log("🚀 ~ file: event summary.html:33 ~ document.getElementById ~ document:", document)
         // Option : 2 ( recap )
         document.getElementById('btn-update').addEventListener('click', function (){
             const inputField = document.getElementById('input-field');
             const inputText = inputField.value;
+            // console.log("🚀 ~ file: event summary.html:37 ~ const:", const)
 
             const p = document.getElementById('input-text-display');
             p.innerText = inputText;
             inputField.value = '';
+            console.log(object);
+            for (const item of object) {
+                
+
+            }
 
         })
     </script>
